@@ -54,6 +54,9 @@ This repository provides a simple PowerShell script that can be converted into a
    ps2exe .\alcasar_login.ps1 .\alcasar_login.exe
    ```
 
+    You can now delete the `alcasar_login.ps1` file if you want.
+    And just keep the `alcasar_login.exe` file on your desktop for quick access!
+    
 4. **Run on Startup (Optional):**
 
    If you want the executable to run on startup, you can create a scheduled task. Consult the documentation of your Windows version for instructions on creating scheduled tasks.
