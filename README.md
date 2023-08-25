@@ -34,11 +34,18 @@ This repository provides a simple PowerShell script that can be converted into a
 
 3. **Convert Script to Executable:**
 
-   Replace the placeholders in the `alcasar_login.ps1` file with your actual credentials:
+   Replace the placeholders in the `alcasar_login.ps1` file with your actual credentials, you can use your IDE, or even right click then edit the file with notepad:
 
    ```powershell
    username = "EnterUsernameHere"
    password = "EnterPasswordHere"
+   ```
+   Copy the `alcasar_login.ps1` to your desktop if your not familiar with all of this, then edit it with notepad, and save it.
+
+   If it is on your desktop, you can run the following command to navigate to the directory:
+
+   ```powershell
+   ps2exe .\Desktop\alcasar_login.ps1 .\Desktop\alcasar_login.exe
    ```
 
    Then, open PowerShell and navigate to the cloned repository directory. Run the following command to convert the script to an executable:
