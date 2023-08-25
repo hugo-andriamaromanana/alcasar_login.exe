@@ -40,23 +40,23 @@ This repository provides a simple PowerShell script that can be converted into a
    username = "EnterUsernameHere"
    password = "EnterPasswordHere"
    ```
-   Copy the `alcasar_login.ps1` to your desktop if your not familiar with all of this, then edit it with notepad, and save it.
+   Copy the `alcasar_login.ps1` and the logo.ico to your desktop if your not familiar with all of this, then edit it with notepad, and save it.
 
    If it is on your desktop, you can run the following command to navigate to the directory:
 
    ```powershell
-   ps2exe .\Desktop\alcasar_login.ps1 .\Desktop\alcasar_login.exe
+   ps2exe .\Desktop\alcasar_login.ps1 .\Desktop\alcasar_login.exe -icon .\Desktop\logo.ico
    ```
 
    Then, open PowerShell and navigate to the cloned repository directory. Run the following command to convert the script to an executable:
 
    ```powershell
-   ps2exe .\alcasar_login.ps1 .\alcasar_login.exe
+   ps2exe .\alcasar_login.ps1 .\alcasar_login.exe -icon .\logo.ico
    ```
 
     You can now delete the `alcasar_login.ps1` file if you want.
     And just keep the `alcasar_login.exe` file on your desktop for quick access!
-    
+
 4. **Run on Startup (Optional):**
 
    If you want the executable to run on startup, you can create a scheduled task. Consult the documentation of your Windows version for instructions on creating scheduled tasks.
