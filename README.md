@@ -20,10 +20,16 @@ This repository provides a simple PowerShell script that can be converted into a
 
 2. **Install PS2EXE:**
 
+   You might want to upgrade your privileges before anything to run custom scripts on your machine
+
+    ```powershell
+    Set-ExecutionPolicy RemoteSigned
+    ```
+
    To convert your PowerShell script to an executable, you'll need to install the `PS2EXE` module. Open PowerShell and run the following command:
 
    ```powershell
-   Install-Module PS2EXE -Scope CurrentUser
+   Install-Module PS2EXE
    ```
 
 3. **Convert Script to Executable:**
